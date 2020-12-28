@@ -38,7 +38,7 @@ public class Main {
         System.out.println("************************");
 
         while (true){
-            System.out.print("işleminizi seçin :");
+            System.out.print("İİŞLEMİNİZİ SEÇİN :");
             String islemler=scanner.nextLine();
 
             if (islemler.equals("q")){
@@ -109,6 +109,7 @@ public class Main {
 
                 } else {
                     System.out.println("Yanlış bir İşlem yaptınız.....");
+                    System.out.println("Lütfen tekrar deneyiniz...");
                 }
             }
             break;

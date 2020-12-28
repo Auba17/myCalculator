@@ -38,7 +38,7 @@ public class Main {
         System.out.println("************************");
 
         while (true){
-            System.out.print("İİŞLEMİNİZİ SEÇİN :");
+            System.out.print("İşleminizi Seçin :");
             String islemler=scanner.nextLine();
 
             if (islemler.equals("q")){
